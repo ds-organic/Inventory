@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ADMIN-V1
+server:
+  contextPath: /digitalS/admin
+  port: 8089
+   
+
+
+
+ 
+
+---

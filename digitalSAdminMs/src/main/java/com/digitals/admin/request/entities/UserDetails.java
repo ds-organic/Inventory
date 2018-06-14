@@ -3,19 +3,31 @@ package com.digitals.admin.request.entities;
 import java.util.Date;
 import java.util.Map;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class UserDetails {
-	
+	@JsonProperty
 	private String firstName;
+	@JsonProperty
 	private String lastName;
 	private Date dob;
+	@JsonProperty
 	private String email;
+	@JsonProperty
 	private String username;
+	@JsonProperty
 	private String password;
+	@JsonProperty
 	private String postcode;
+	@JsonProperty
 	private String addressLine1;
+	@JsonProperty
 	private String addressLine2;
+	@JsonProperty
 	private String city;
+	@JsonProperty
 	private String country;
+	@JsonProperty
 	private String contactNumber;
 	private String role;
 	private Map<String,String> securityQuestions;
