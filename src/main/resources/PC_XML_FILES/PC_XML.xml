@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+	<product>
+		<skuid>1024</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M ASSAM TEA 100G</product_name>
+		<product_desc>Description1</product_desc>
+		<receivedQty>2.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>2.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants>variant1;varriant2;variant3</variants>
+	</product>
+	<product>
+		<skuid>1025</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M CARDMOM 50 GM</product_name>
+		<product_desc>Description2</product_desc>
+		<receivedQty>9.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>9.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1026</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M CORIANDER POWDER 100GMS</product_name>
+		<product_desc>Description3</product_desc>
+		<receivedQty>5.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>5.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1027</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M CORIANDER SEED 100G</product_name>
+		<product_desc>Description4</product_desc>
+		<receivedQty>5.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>5.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1028</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M CUMIN POWDER 100 GM</product_name>
+		<product_desc>Description5</product_desc>
+		<receivedQty>1.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>1.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1029</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M FENUGREEK POWDER 100 G</product_name>
+		<product_desc>Description6</product_desc>
+		<receivedQty>7.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>7.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1030</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M KABULI CHANA 500G</product_name>
+		<product_desc>Description7</product_desc>
+		<receivedQty>4.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>4.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1031</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M MUSTARD SMALL 100GM</product_name>
+		<product_desc>Description8</product_desc>
+		<receivedQty>1.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>1.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1032</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M PUFFED RICE 200gms</product_name>
+		<product_desc>Description9</product_desc>
+		<receivedQty>5.00</receivedQty>
+		<issuedQty>1.00</issuedQty>
+		<balanceQty>4.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1033</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M RASAM POWDER 100GM</product_name>
+		<product_desc>Description10</product_desc>
+		<receivedQty>3.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>3.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	<product>
+		<skuid>1034</skuid>
+		<branch>Mathruka Branch</branch>
+		<product_name>24M RICE FLOUR 500gms</product_name>
+		<product_desc>Description11</product_desc>
+		<receivedQty>8.00</receivedQty>
+		<issuedQty>0.00</issuedQty>
+		<balanceQty>8.00</balanceQty>
+		<priceGross>50.00</priceGross>
+		<priceNet>35.00</priceNet>
+		<priceVat>15.00</priceVat>
+		<currency>INR</currency>
+		<storeGrossPrice>55.00</storeGrossPrice>
+		<storeNetPrice>40.00</storeNetPrice>
+		<storeVatPrice>15.00</storeVatPrice>
+		<barcode></barcode>
+		<variants></variants>
+	</product>
+	
+</products>

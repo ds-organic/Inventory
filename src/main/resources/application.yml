@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: INVENTORY-V1
+
+server:
+  contextPath: /catalogue
+  port: 8082
