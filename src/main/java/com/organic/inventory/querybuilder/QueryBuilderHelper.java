@@ -41,7 +41,7 @@ public class QueryBuilderHelper {
 		try {
 			SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
 			BoolQueryBuilder qb = QueryBuilders.boolQuery();
-			qb.filter(QueryBuilders.termQuery("skuId", productId));
+			qb.filter(QueryBuilders.termQuery("skuid", productId));
 			sourceBuilder.query(qb);
 			searchRequest.source(sourceBuilder);
 		} catch (Exception e) {
