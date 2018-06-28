@@ -33,9 +33,14 @@ public class ElasticsearchClientConfig {
     
     @PostConstruct
     public void init() throws UnknownHostException, MalformedURLException {
-    	highLevelRestclient = new RestHighLevelClient(
+    	/*highLevelRestclient = new RestHighLevelClient(
     	        RestClient.builder(
-    	                new HttpHost("localhost", 9200, "http")));
+    	                new HttpHost("localhost", 9200, "http")));*/
+    	try {
+			InetAddress address = InetAddress.getByName(new URL("https://search-ds-test-env-nan6gniktxmqoo5z5h3ptm72i4.eu-west-1.es.amazonaws.com").getHost());
+			highLevelRestclient= new RestHighLevelClient(RestClient.builder(new HttpHost(address, address.getHostName(),-1, "https")));
+		} catch (UnknownHostException | MalformedURLException e) {
+		}
     }
 
     @PreDestroy

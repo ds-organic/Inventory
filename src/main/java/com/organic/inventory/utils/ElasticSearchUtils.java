@@ -1,6 +1,10 @@
 package com.organic.inventory.utils;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.search.SearchHit;
@@ -30,6 +34,28 @@ public class ElasticSearchUtils {
 		} catch (IOException e) {
 		}
 		return null;
+	}
+	
+	public <T> List<T> getListOfObject(SearchResponse response, Class<T> classType)
+	{
+		List<T> res=new ArrayList<>();
+		List<SearchHit> searchHitList = new ArrayList<>(Arrays.asList(response.getHits().getHits()));
+		CompletableFuture<List<T>> future0 = getCompatibleFutureObject(searchHitList,
+				new ArrayList<T>(), classType);
+		try {
+			res = future0.get();
+		} catch (Exception e) {
+		}
+		return res;
+	}
+	
+	private <U> CompletableFuture<List<U>> getCompatibleFutureObject(List<SearchHit> searchHitList,
+			List<U> result, Class<U> classType) 
+	{
+		return CompletableFuture.supplyAsync(() -> {
+			searchHitList.forEach(hit -> result.add(getObject(hit, classType)));
+			return result;
+		});
 	}
 	
 }
